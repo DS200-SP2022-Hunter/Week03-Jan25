@@ -11,7 +11,7 @@ To successfully run either of the notebooks above, you'll need to change the val
 
 Remember that you can execute the code inside any python-code window by typing "shift-Return" inside that window.   Additionally, you can add a box for code or a box for text using the "+ Code" and "+ Text" buttons near the top left.  If you use Section 10.2 or 10.3 as the basis for your work, please try to delete irrelevant text and code boxes before you turn in your lab.
 
-**Objective:**  Download a dataset with more than 350K rows on the bike share service in the Bay Area in California.  Using the duration of each trip in seconds, consider these 350K measurements to represent a large population.  Analyze the behavior of sample medians for samples of size 100 and 400 by simulating 5000 samples for both sample sizes.  _This dataset is analyzed in [Section 8.5 of the textbook](https://inferentialthinking.com/chapters/08/5/Bike_Sharing_in_the_Bay_Area.html), in case you learn more about it._
+**Objective:**  Download a dataset with more than 350K rows on the bike share service in the Bay Area in California.  Using the duration of each trip in seconds, consider these 350K measurements to represent a large population.  Analyze the behavior of sample medians for samples of size 100 and 400 by simulating 5000 samples for both sample sizes.  _This dataset is analyzed in [Section 8.5 of the textbook](https://inferentialthinking.com/chapters/08/5/Bike_Sharing_in_the_Bay_Area.html), in case you want to learn more about it._
 
 **Your assignment is as follows.** Please insert text boxes as appropriate, which should accompany all relevant code and output, to answer the questions below:
 
@@ -23,7 +23,7 @@ Remember that you can execute the code inside any python-code window by typing "
 
 4. What fraction of the Duration values did you exclude from your histogram?  Give a precise numerical answer.
 
-5. Find the mean and median value of Duration.  For the median, you'll need to use some code from Section 10.3.  Think about it, then explain why the mean is larger than the median for this dataset.  
+5. Find the mean and median value of Duration.  For the median, you'll need to use some code from Section 10.3, and the mean involves an obvious change.  This dataset has the property that the mean is larger than the median because the shape of the historgram has a long tail in the positive direction (a long tail in a distribution tends to affect the mean but not the median).    
 
 6. Simulate 5000 samples of size 100 from the  Duration column.  Create a histogram of the 5000 sample medians that result.  Repeat this process using samples of size 400.
 
